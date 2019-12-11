@@ -1,2 +1,42 @@
-XTerm.vt100.foreground: white
-XTerm.vt100.background: black
+! font
+URxvt.font: xft:Source Code Pro:size=9
+
+! scrollbar
+URxvt.scrollBar: false
+
+! super amazing color sceme
+
+! special
+*.foreground:   #c8c7b8
+*.background:   #11110f
+*.cursorColor:  #c8c7b8
+
+! black
+*.color0:       #1c1c19
+*.color8:       #848be9
+
+! red
+*.color1:       #252421
+*.color9:       #68a582
+
+! green
+*.color2:       #363531
+*.color10:      #83caa1
+
+! yellow
+*.color3:       #4d4d46
+*.color11:      #969be3
+
+! blue
+*.color4:       #6a6a62
+*.color12:      #77d7a1
+
+! magenta
+*.color5:       #8d8d82
+*.color13:      #a3a15f
+
+! cyan
+*.color6:       #b6b5a8
+*.color14:      #dfa0cc
+
+
