@@ -29,6 +29,11 @@ cd ./xinitrc
 cp -v ./.xinitrc ~
 cd ..
 
+#bashrc
+cd ./bashrc
+cp -v ~
+cd ..
+
 #ending
 echo Finished Installing
 exit
