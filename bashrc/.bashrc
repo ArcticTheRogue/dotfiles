@@ -21,4 +21,6 @@ fi
 export PATH="$PATH:$HOME/.cargo/bin/"
 
 #aliases
+alias rsfetch="rsfetch -U@Hdwksurp portage"
+alias rsfetch-help="rsfetch --help"
 
