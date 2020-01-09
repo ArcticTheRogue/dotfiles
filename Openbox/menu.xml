@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="File Manager" icon="/home/arctic/.config/obmenu-generator/icons/a384074033dfc3ebebb1a8a39d2be8a6.png"><action name="Execute"><command><![CDATA[xdg-open .]]></command></action></item>
+    <item label="Terminal" icon="/home/arctic/.config/obmenu-generator/icons/4bba506b8ff42c4bfb64152ae0997ac9.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+    <item label="Web Browser" icon="/home/arctic/.config/obmenu-generator/icons/0fd14be8770af75716427df2c3a3194a.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="Run command" icon="/home/arctic/.config/obmenu-generator/icons/75a67767299530cac90d76a36547c619.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator label="Categories"/>
+  <menu id="0.29991373077883" icon="/home/arctic/.config/obmenu-generator/icons/14ccfd60064d61cfc7da4145731d45f2.png" label="Accessories">
+    <item label="About Xfce" icon=""><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
+    <item label="Bulk Rename" icon=""><action name="Execute"><command><![CDATA[/usr/lib64/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="compton" icon=""><action name="Execute"><command><![CDATA[compton]]></command></action></item>
+    <item label="File Manager" icon=""><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Terminal Emulator" icon=""><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Thunar File Manager" icon=""><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Vim" icon=""><action name="Execute"><command><![CDATA[xterm -e 'vim']]></command></action></item>
+  </menu>
+  <menu id="0.977192577530758" icon="/home/arctic/.config/obmenu-generator/icons/0387ca745482e01491536375926426b7.png" label="Development">
+    <item label="GNU Emacs" icon=""><action name="Execute"><command><![CDATA[/usr/bin/emacs]]></command></action></item>
+    <item label="sandbox" icon=""><action name="Execute"><command><![CDATA[xterm -e 'sandbox']]></command></action></item>
+  </menu>
+  <menu id="0.843634676692215" icon="/home/arctic/.config/obmenu-generator/icons/1c808b276109027e2dc0d44f11865068.png" label="Games">
+    <item label="OpenMW Launcher" icon=""><action name="Execute"><command><![CDATA[openmw-launcher]]></command></action></item>
+  </menu>
+  <menu id="0.84355869781843" icon="/home/arctic/.config/obmenu-generator/icons/603671f8b1fb52aa225bd145c51f71b8.png" label="Graphics">
+    <item label="GNU Image Manipulation Program" icon=""><action name="Execute"><command><![CDATA[gimp-2.10]]></command></action></item>
+  </menu>
+  <menu id="0.841360123490706" icon="" label="Multimedia">
+    <item label="PulseAudio Volume Control" icon=""><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+  </menu>
+  <menu id="0.413395011550151" icon="/home/arctic/.config/obmenu-generator/icons/5e2944a03dc82bfaea4f718d2d3f6083.png" label="Network">
+    <item label="Discord" icon=""><action name="Execute"><command><![CDATA[/opt/discord/Discord]]></command></action></item>
+    <item label="Mail Reader" icon=""><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="Mozilla Firefox" icon=""><action name="Execute"><command><![CDATA[firefox]]></command></action></item>
+    <item label="Web Browser" icon=""><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+  </menu>
+  <menu id="0.00415186597669148" icon="/home/arctic/.config/obmenu-generator/icons/f544a0e382d47b8b04b870ee8225b3cc.png" label="Other">
+    <item label="Browse C: Drive" icon=""><action name="Execute"><command><![CDATA[xdg-open .wine/dosdevices/c:]]></command></action></item>
+    <item label="Configure Wine" icon=""><action name="Execute"><command><![CDATA[winecfg]]></command></action></item>
+    <item label="Notepad" icon=""><action name="Execute"><command><![CDATA[notepad]]></command></action></item>
+    <item label="Uninstall Wine Software" icon=""><action name="Execute"><command><![CDATA[wine uninstaller]]></command></action></item>
+  </menu>
+  <menu id="0.678537087090341" icon="/home/arctic/.config/obmenu-generator/icons/f3696f59388a5c36c99c8356cd61c752.png" label="Settings">
+    <item label="Customize Look and Feel" icon=""><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="File Manager Settings" icon=""><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="NVIDIA X Server Settings" icon=""><action name="Execute"><command><![CDATA[/usr/bin/nvidia-settings]]></command></action></item>
+    <item label="Preferred Applications" icon=""><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+  </menu>
+  <menu id="0.104000906218435" icon="/home/arctic/.config/obmenu-generator/icons/d7f5bec41effc66a0e54da9f8b7d1ea9.png" label="System">
+    <item label="Bulk Rename" icon=""><action name="Execute"><command><![CDATA[/usr/lib64/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="Htop" icon=""><action name="Execute"><command><![CDATA[xterm -e 'htop']]></command></action></item>
+    <item label="NVIDIA X Server Settings" icon=""><action name="Execute"><command><![CDATA[/usr/bin/nvidia-settings]]></command></action></item>
+    <item label="rxvt-unicode" icon=""><action name="Execute"><command><![CDATA[urxvt]]></command></action></item>
+    <item label="Thunar File Manager" icon=""><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Tint2" icon=""><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="UXTerm" icon=""><action name="Execute"><command><![CDATA[uxterm]]></command></action></item>
+    <item label="XTerm" icon=""><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.578756450035826" icon="/home/arctic/.config/obmenu-generator/icons/36b57deda34c347e69eaed83ac7c8754.png" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/arctic/.config/obmenu-generator/icons/2bc0113518cf34338ce2776d005d8d27.png"><action name="Execute"><command><![CDATA[geany ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/arctic/.config/obmenu-generator/icons/2bc0113518cf34338ce2776d005d8d27.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.997357863250539" icon="/home/arctic/.config/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/arctic/.config/obmenu-generator/icons/2bc0113518cf34338ce2776d005d8d27.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/arctic/.config/obmenu-generator/icons/2bc0113518cf34338ce2776d005d8d27.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/arctic/.config/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/arctic/.config/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/arctic/.config/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/arctic/.config/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/arctic/.config/obmenu-generator/icons/0d3dfd63e106b9729536e30d9c695d7c.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.726757522895674" icon="/home/arctic/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/arctic/.config/obmenu-generator/icons/2bc0113518cf34338ce2776d005d8d27.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/arctic/.config/obmenu-generator/icons/2bc0113518cf34338ce2776d005d8d27.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/arctic/.config/obmenu-generator/icons/2bc0113518cf34338ce2776d005d8d27.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/arctic/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/arctic/.config/obmenu-generator/icons/4c8321a75ca583aed86fefc054a0d4cf.png"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
+    <item label="Exit" icon="/home/arctic/.config/obmenu-generator/icons/00abd3c2943553016f5374573c69bd53.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
