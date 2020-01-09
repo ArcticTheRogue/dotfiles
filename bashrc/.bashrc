@@ -16,11 +16,19 @@ fi
 
 
 # Put your fun stuff here.
-
+echo "-------------------------------------"
+fortune mythical_linux
+echo "-------------------------------------"
 #exports
 export PATH="$PATH:$HOME/.cargo/bin/"
 
 #aliases
 alias rsfetch="rsfetch -U@Hdwksurp portage"
 alias rsfetch-help="rsfetch --help"
+
+#Gentoo aliases
+alias merge="sudo emerge -atv"
+alias unmerge="sudo emerge -avc"
+alias eupdate="sudo emerge -uDNatv @world"
+alias esync="sudo emerge --sync"
 
