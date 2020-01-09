@@ -1,5 +1,5 @@
 xrdb ./.Xresources &
 xsetroot -cursor_name left_ptr &
-polybar mybar &
+compton --vsync opengl --backend glx &
 
-exec bspwm
+exec ck-launch-session dbus-launch --sh-syntax --exit-with-session openbox-session
