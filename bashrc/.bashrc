@@ -21,14 +21,23 @@ fortune mythical_linux
 echo "-------------------------------------"
 #exports
 export PATH="$PATH:$HOME/.cargo/bin/"
+export PATH="$PATH:$HOME/.local/bin/"
+export LIBAACS_PATH=libmmbd
+export LIBBDPLUS_PATH=libmmbd
 
 #aliases
 alias rsfetch="rsfetch -U@Hdwksurp portage"
 alias rsfetch-help="rsfetch --help"
 
+#ProtonVPN aliases
+alias pvpnc="sudo protonvpn c -f" #to connect to the fastest server
+alias pvpnd="sudo protonvpn d" #to disconnect from the server you are currently connected to
+alias pvpns="protonvpn s" #show protonvpn's status
+
 #Gentoo aliases
-alias merge="sudo emerge -atv"
-alias unmerge="sudo emerge -avc"
-alias eupdate="sudo emerge -uDNatv @world"
-alias esync="sudo emerge --sync"
+alias waifu="sudo emerge -atv" #to merge a package
+alias unwaifu="sudo emerge -avc" #to unmerge a package
+alias eupdate="sudo emerge -uDNatv @world" #to update @world
+alias edepclean="sudo emerge -a --depclean" #to preform a deplean
+alias esync="sudo emerge --sync" #to sync the repos
 
