@@ -24,20 +24,23 @@ export PATH="$PATH:$HOME/.cargo/bin/"
 export PATH="$PATH:$HOME/.local/bin/"
 export LIBAACS_PATH=libmmbd
 export LIBBDPLUS_PATH=libmmbd
+export EDITOR=vim
 
 #aliases
 alias rsfetch="rsfetch -U@Hdwksurp portage"
 alias rsfetch-help="rsfetch --help"
+alias kdiscord="pkill Discord && pkill Discord"
+alias sudo="doas" #to make scripts that use sudo use doas
 
 #ProtonVPN aliases
-alias pvpnc="sudo protonvpn c -f" #to connect to the fastest server
-alias pvpnd="sudo protonvpn d" #to disconnect from the server you are currently connected to
+alias pvpnc="doas protonvpn c -f" #to connect to the fastest server
+alias pvpnd="doas protonvpn d" #to disconnect from the server you are currently connected to
 alias pvpns="protonvpn s" #show protonvpn's status
 
 #Gentoo aliases
-alias waifu="sudo emerge -atv" #to merge a package
-alias unwaifu="sudo emerge -avc" #to unmerge a package
-alias eupdate="sudo emerge -uDNatv @world" #to update @world
-alias edepclean="sudo emerge -a --depclean" #to preform a deplean
-alias esync="sudo emerge --sync" #to sync the repos
+alias waifu="doas emerge -atv" #to merge a package
+alias unwaifu="doas emerge -avc" #to unmerge a package
+alias eupdate="doas emerge -uDNatv @world" #to update @world
+alias edepclean="doas emerge -a --depclean" #to preform a deplean
+alias esync="doas emerge --sync" #to sync the repos
 
